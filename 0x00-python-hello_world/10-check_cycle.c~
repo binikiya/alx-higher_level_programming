@@ -9,15 +9,17 @@
 
 int check_cycle(listint_t *list) 
 {
-  linstint_t *reg = list, *doub = list;
-  if (list == NULL)
-    return (0);
-  while (doub && doub->next)
-    {
-      doub = doub->next->next;
-      reg = reg->next;
-      if (reg == doub)
-	return (1);
-    }
-  return (0);
+linstint_t *slow, *fast;
+if (!list)
+return (0);
+slow = list;
+fast = list->next;
+while (fast && slow && fast->next)
+{
+if (fast == slow)
+return (1);
+slow = slow->next;
+fast = fast->next->next;
+}
+return (0);
 }
