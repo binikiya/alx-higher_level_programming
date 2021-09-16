@@ -20,7 +20,7 @@ size = var->ob_size;
 alloc = list->allocated;
 
 printf("[*] Python list info\n");
-printf("[*] Size of Python List = %d\n", size);
+printf("[*] Size of the Python List = %d\n", size);
 printf("[*] Allocated = %d\n", alloc);
 
 for (i = 0; i < size; i++)
