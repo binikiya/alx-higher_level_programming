@@ -50,7 +50,7 @@ printf("  [ERROR] Invalid Bytes Object\n");
 return;
 }
 printf("  size: %ld\n", ((PyVarObject *)p)->ob_size);
-printf("  trying starting: %s\n", bytes->ob_sval);
+printf("  trying string: %s\n", bytes->ob_sval);
 if (((PyVarObject *)p)->ob_size > 10)
 {
 size = 10;
