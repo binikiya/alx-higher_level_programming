@@ -1,6 +1,9 @@
 #!/usr/bin/python3
+""" Definition of square class """
 class Square:
+    """ Represents a square class """
     def __init__(self, size=0):
+        """ Initializes a square class """
         if type(size) is not int:
             raise TypeError("size must be an integer")
         elif size < 0:
