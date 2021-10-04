@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" Definition of square class """
+""" Defines of square class """
 
 
 class Square:
