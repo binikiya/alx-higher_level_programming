@@ -7,13 +7,16 @@ class Square:
     def __init__(self, size=0):
         """ Initialization of square """
         self.size = size
+
     def area(self):
         """ Calculates the square's area """
         return (self.__size) ** 2
+
     @property
     def size(self):
         """ getter of __size """
         return self.__size
+
     @size.setter
     def size(self, value):
         """ setter of __size """

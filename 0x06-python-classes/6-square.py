@@ -8,13 +8,16 @@ class Square:
         """ Initialization of square """
         self.size = size
         self.position = position
+
     def area(self):
         """ Calculates the square's area """
         return (self.__size) ** 2
+
     @property
     def size(self):
         """ getter of __size """
         return self.__size
+
     @size.setter
     def size(self, value):
         """ setter of __size """
@@ -24,6 +27,7 @@ class Square:
             raise ValueError("size must be >= 0")
         else:
             self.__size = value
+
     def my_print(self):
         """ prints the square """
         if self.__size == 0:
@@ -34,10 +38,12 @@ class Square:
         for j in range(self.__size):
             print("".join([" " for k in range(self.__position[0])]), end="")
             print("".join(["#" for l in range(self.__size)]))
+
     @property
     def position(self):
         """ getter of position """
         return self.__position
+
     @positon.setter
     def position(self, value):
         """ setter of position """
