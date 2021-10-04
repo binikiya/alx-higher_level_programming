@@ -1,12 +1,12 @@
 #!/usr/bin/python3
-""" Definition of a square class """
+""" Defines a class square """
 
 
 class Square:
     """ Represents a square
     
     Attributes:
-        __size(int): size of a size of the square
+        __size (int): size of a size of the square
         __position (tuple): position of the square in 2D space
     """
 
