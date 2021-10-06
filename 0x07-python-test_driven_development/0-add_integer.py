@@ -2,7 +2,9 @@
 """
 0-add_integer.py
 """
-def add_integer(a, b=98):
+
+
+def add_integer(a, b):
     """the function that adds two integers or floats"""
     if type(a) is not int or type(a) is not float:
         raise TypeError("a must be an integer")
