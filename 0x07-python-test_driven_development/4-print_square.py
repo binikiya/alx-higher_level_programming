@@ -2,7 +2,10 @@
 """
 4-print_square.py
 """
+
+
 def print_square(size):
+    """a function that prints square"""
     if type(size) is not int:
         raise TypeError("size must be an integer")
     if size < 0:
