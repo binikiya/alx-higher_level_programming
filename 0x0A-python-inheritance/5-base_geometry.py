@@ -4,6 +4,6 @@
 """
 
 
-class BaseGeomerty:
+class BaseGeometry:
     """An empty class"""
     pass

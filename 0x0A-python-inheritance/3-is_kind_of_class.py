@@ -5,8 +5,5 @@
 
 
 def is_kind_of_class(obj, a_class):
-    """returns true if obj is an instance of:
-         1) exact class a_class
-         2) the class tha a_class inherited from
-    """
+    """returns true if obj is an instance or inherited from a_class"""
     return (isinstance(abj, a_class))
