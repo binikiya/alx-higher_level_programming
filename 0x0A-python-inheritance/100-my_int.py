@@ -4,7 +4,7 @@
 """
 
 
-class my_int(int):
+class MyInt(int):
     """a class that inherits from int"""
     def __new__(cls, *args, **kwargs):
         """creates the new instance of the class"""
