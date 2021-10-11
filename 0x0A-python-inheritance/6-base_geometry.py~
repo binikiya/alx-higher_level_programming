@@ -1,0 +1,11 @@
+#!/usr/bin/python3
+"""
+6-base_geometry.py
+"""
+
+
+class BaseGeometry:
+    """A class that have an area method"""
+
+    def __init__(self):
+        """initializes the class"""
