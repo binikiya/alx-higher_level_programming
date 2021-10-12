@@ -1,0 +1,8 @@
+#!/usr/bin/python3
+"""
+100-append_after.py
+"""
+
+
+def append_after(filename="", search_string="", new_string=""):
+    
