@@ -2,7 +2,6 @@
 """
 101-stats.py
 """
-
 import sys
 
 file_size = 0
