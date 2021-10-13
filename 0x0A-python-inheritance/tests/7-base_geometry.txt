@@ -1,7 +1,7 @@
-The ''7-base_geometry'' module
+The ``7-base_geometry`` module
 ======================
 
-Using ''BaseGeometry''
+Using ``BaseGeometry``
 -------------------
 
 Importing the function from module:
@@ -33,7 +33,7 @@ Checking for too many arguments for area:
 	 >>> b.area(1)
 	 Traceback (most recent call last):
 	 ...
-	 TypeError: print_sorted() tasks 1 positional argument but 2 were given
+	 TypeError: print_sorted() takes 1 positional argument but 2 were given
 
 Checking integer < 0:
 	 >>> b.integer_validator("integer", -5)
@@ -58,7 +58,7 @@ Checking for non integer types:
 	 >>> b.integer_validator("complex", complex(1, 1))
 	 Traceback (most recent call last):
 	 ...
-	 TrypeError: complex must be an integer
+	 TypeError: complex must be an integer
 	 >>> b.integer_validator("float", 1.5)
 	 Traceback (most recent call last):
 	 ...
