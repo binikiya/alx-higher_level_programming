@@ -4,7 +4,7 @@ The ``1-my_list`` module
 Using ``MyList``
 -------------------
 
-Importing the function from module:
+Importing the function from the module:
 	  >>> MyList = __import__("1-my_list").MyList
 
 Checking for module docstring:
@@ -31,7 +31,7 @@ Checking for empty list:
 	 >>> l.print_sorted()
 	 []
 
-Checking that appending works:
+Checking that appendng works:
 	 >>> l.append(1)
 	 >>> l.append(2)
 	 >>> l.append(3)
