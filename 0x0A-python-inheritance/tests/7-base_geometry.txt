@@ -5,7 +5,7 @@ Using ``BaseGeometry``
 -------------------
 
 Importing the function from the module:
-	 >>> BG = __import__("7-base_geometry").BaseGeometry
+	  >>> BG = __import__("7-base_geometry").BaseGeometry
 
 Checking for module docstring:
 	 >>> m = __import__("7-base_geometry").__doc__
@@ -19,7 +19,7 @@ Checking for class docstring:
 
 Checking for method docstring:
 	 >>> mod1 = __import__("7-base_geometry").BaseGeometry.area.__doc__
-	 >>> len(mod) > 1
+	 >>> len(mod1) > 1
 	 True
 	 >>> mod2 = __import__("7-base_geometry").BaseGeometry.integer_validator.__doc__
 	 >>> len(mod2) > 1
