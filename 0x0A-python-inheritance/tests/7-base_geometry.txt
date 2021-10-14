@@ -94,7 +94,7 @@ Checking for non integer types:
 	 Traceback (most recent call last):
 	 ...
 	 TypeError: bytes must be an integer
-	 >>> b.integer_validator("bytearrays", bytearray(b"bytes"))
+	 >>> b.integer_validator("bytearray", bytearray(b"bytes"))
 	 Traceback (most recent call last):
 	 ...
 	 TypeError: bytearray must be an integer
