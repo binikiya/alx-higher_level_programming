@@ -33,6 +33,7 @@ class Node:
         """setter of __next_node"""
         if value is not None and type(value) is not Node:
             raise TypeError("next_node must be a Node object")
+        self.__next_node = value
 
     def __str__(self):
         """string representation of Node instance"""

@@ -18,6 +18,6 @@ class MagicClass:
         """calculates area of a circle"""
         return math.pi * (self.__radius ** 2)
 
-    def circumstances(self):
+    def circumference(self):
         """calculates circumstances of a circle"""
         return 2 * math.pi * self.__radius
