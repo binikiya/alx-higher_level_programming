@@ -101,13 +101,13 @@ Checking for non integer types:
 
 Checking for no arguments to integer validator:
 	 >>> b.integer_validator()
-	 Traceback (most recent call back):
+	 Traceback (most recent call last):
 	 ...
 	 TypeError: integer_validator() missing 2 required positional arguments: 'name' and 'value'
 
 Checking for only one argument to integer validator:
 	 >>> b.integer_validator("integer")
-	 Traceback (most recent call last)
+	 Traceback (most recent call last):
 	 ...
 	 TypeError: integer_validator() missing 1 required positional argument: 'value'
 
