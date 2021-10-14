@@ -113,6 +113,6 @@ Checking for only one argument to integer validator:
 
 Checking for too many arguments:
 	 >>> b.integer_validator("integer", 1, 2)
-	 Traceback (most recent call last)
+	 Traceback (most recent call last):
 	 ...
 	 TypeError: integer_validator() takes 3 positional arguments but 4 were given
