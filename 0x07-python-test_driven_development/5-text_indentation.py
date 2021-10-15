@@ -5,7 +5,7 @@
 
 
 def text_indentation(text):
-    """splits a text into lines along side "?", ":", "." folowed by two lines"""
+    """splits a text into lines along side "?", ":", "." """
     if type(text) is not str:
         raise TypeError("text must be a string")
     flag = 0
