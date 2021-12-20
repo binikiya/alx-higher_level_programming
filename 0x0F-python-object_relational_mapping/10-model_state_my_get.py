@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Lists the State objects whith name passed as argument from the database
+Lists the State objects whith name passed as argument
 """
 
 import sqlalchemy
